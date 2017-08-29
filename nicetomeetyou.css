@@ -16,6 +16,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 625px 50px;
+    margin-bottom: 20px;
 
 
 }
@@ -31,53 +32,26 @@ p {
     line-height: 3px;
 }
 
-.wrap {
-    max-width: 600px;
-    font-size: 1.75em;
-    margin:150px auto;
+.css-typing
+{
+    font-weight: bold;
+    font-size: 1.3em;
     text-align: center;
+    width: 28em;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 5s steps(50, end);
+    animation: type 5s steps(50, end);
+    margin-bottom: 2px;
+
 }
 
-.type-wrap{
-    margin:10px auto;
-    padding:5px;
-    /*background:#f0f0f0; */
-    /*border-radius:5px;*/
-    /*border:#CCC 1px solid; */
+@keyframes type{
+    from { width: 0; }
 }
 
-/* code for animated blinking cursor */
-        .typed-cursor{
-            opacity: 1;
-            font-weight: 100;
-            -webkit-animation: blink 0.7s infinite;
-            -moz-animation: blink 0.7s infinite;
-            -ms-animation: blink 0.7s infinite;
-            -o-animation: blink 0.7s infinite;
-            animation: blink 0.7s infinite;
-        }
-        @-keyframes blink{
-            0% { opacity:1; }
-            50% { opacity:0; }
-            100% { opacity:1; }
-        }
-        @-webkit-keyframes blink{
-            0% { opacity:1; }
-            50% { opacity:0; }
-            100% { opacity:1; }
-        }
-        @-moz-keyframes blink{
-            0% { opacity:1; }
-            50% { opacity:0; }
-            100% { opacity:1; }
-        }
-        @-ms-keyframes blink{
-            0% { opacity:1; }
-            50% { opacity:0; }
-            100% { opacity:1; }
-        }
-        @-o-keyframes blink{
-            0% { opacity:1; }
-            50% { opacity:0; }
-            100% { opacity:1; }
-        }
+@-webkit-keyframes type{
+    from { width: 0; }
+}
+
+
