@@ -11,11 +11,12 @@ body {
 
 #container {
     margin: 20px auto;
-    max-width: 800px;
+    max-width: 650px;
     background-image: url("images/plant.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position:750px 50px;
+    background-position: 625px 50px;
+
 
 }
 
@@ -29,3 +30,54 @@ p {
     color: gray;
     line-height: 3px;
 }
+
+.wrap {
+    max-width: 600px;
+    font-size: 1.75em;
+    margin:150px auto;
+    text-align: center;
+}
+
+.type-wrap{
+    margin:10px auto;
+    padding:5px;
+    /*background:#f0f0f0; */
+    /*border-radius:5px;*/
+    /*border:#CCC 1px solid; */
+}
+
+/* code for animated blinking cursor */
+        .typed-cursor{
+            opacity: 1;
+            font-weight: 100;
+            -webkit-animation: blink 0.7s infinite;
+            -moz-animation: blink 0.7s infinite;
+            -ms-animation: blink 0.7s infinite;
+            -o-animation: blink 0.7s infinite;
+            animation: blink 0.7s infinite;
+        }
+        @-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-webkit-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-moz-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-ms-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-o-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
