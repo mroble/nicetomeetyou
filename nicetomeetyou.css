@@ -1,21 +1,31 @@
 @import url(https://fonts.googleapis.com/css?family=Space+Mono);
 
-*{
+body {
     padding:0;
     margin:0;
-}
-
-
-body {
     font-family: 'Space Mono', monospace;
     font-size: 100%;
     background:#ffffff;
     font-color: 000000;
 }
 
+#container {
+    margin: 20px auto;
+    max-width: 800px;
+    background-image: url("images/plant.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:750px 50px;
+
+}
+
+p {
+    text-indent: 50px;
+}
 
 
 .bottom {
     text-align: center;
     color: gray;
+    line-height: 3px;
 }
