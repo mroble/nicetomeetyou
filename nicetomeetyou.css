@@ -1,4 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Space+Mono);
+
+*{
+    padding:0;
+    margin:0;
+}
+
+
+body {
+    font-family: 'Space Mono', monospace;
+    font-size: 100%;
+    background:#ffffff;
+    font-color: 000000;
+}
+
+
 
 .bottom {
     text-align: center;
+    color: gray;
 }
