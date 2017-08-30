@@ -16,8 +16,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 625px 50px;
-    margin-bottom: 20px;
-
 
 }
 
@@ -25,6 +23,10 @@ p {
     text-indent: 50px;
 }
 
+.plants {
+    display: block;
+    margin: 0 auto;
+}
 
 .bottom {
     text-align: center;
